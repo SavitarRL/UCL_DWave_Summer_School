@@ -1,7 +1,9 @@
 from dwave.system import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
 import dwave.inspector as dwi
-
+from dwave.cloud import Client
+endpoint = "https://ide.dwavesys.io/#https://github.com/Bob-jb/UCL_DWave_Summer_School"
+token = "DEV-258677752c2f91667d6202fff5b64ac17fd88d8e"
 """
 Follow the four scenarios listed in task 1 by changing the variables in this file
 
